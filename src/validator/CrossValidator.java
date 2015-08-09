@@ -311,7 +311,7 @@ public class CrossValidator {
 		double meanError = 0;
 		float[] averageError = new float[numberOfPermutations];
 
-		for (k = 1; (k <= 5 && k <= folds); k++) {
+		for (k = 1; (k <= 5 ); k++) {
 			for (p = 0; p < numberOfPermutations; p++) {
 				int foldIncrement = 0;
 				int errorCount = 0;
